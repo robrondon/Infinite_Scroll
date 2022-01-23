@@ -35,3 +35,27 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Images Container */
+
+.images-container {
+  margin: 10px 25%;
+}
+
+.images-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Media Mobile */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .images-container {
+    margin: 10px;
+  }
+}
